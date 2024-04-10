@@ -450,16 +450,48 @@
 	  </div>
     </section>
 
-	<section class="ftco-section" id="#Achivements-section">
-		<div class="container">
-		  <div class="row justify-content-center mb-5 pb-5">
-			<div class="col-md-7 heading-section text-center ftco-animate">
-			  <h1 class="big big-2">Achievements</h1>
-			  <h2 class="mb-4">Achievements</h2>
-			  <p>Always Learning New Things...</p>
+
+		  <section class="gallery-section" id="#Achivements-section">
+			<div class="container">
+				<div class="row justify-content-center mb-5 pb-5">
+					<div class="col-md-7 heading-section text-center ftco-animate">
+					  <h1 class="big big-2">Achievements</h1>
+					  <h2 class="mb-4">Achievements</h2>
+					  <p>Always Learning New Things...</p>
+					</div>
+				  </div>
+				<div class="gallery">
+					<div class="image"><img src="images/cert_1.png" alt="Image 1"></div>
+					<div class="image"><img src="images/cert_2.png" alt="Image 2"></div>
+					<div class="image"><img src="images/cert_3.png" alt="Image 3"></div>
+					<div class="image"><img src="images/cert_4.png" alt="Image 4"></div>
+					<div class="image"><img src="images/cert_5.png" alt="Image 5"></div>
+					<div class="image"><img src="images/cert_6.png" alt="Image 6"></div>
+					<div class="image"><img src="images/cert_7.png" alt="Image 7"></div>
+					<div class="image"><img src="images/cert_8.png" alt="Image 8"></div>
+					<!-- Add more images as needed -->
+				</div>
 			</div>
-		  </div>
-		 
+		</section>
+		
+		<!-- CSS styles for the gallery -->
+		<style>
+			.gallery-section {
+				padding: 50px 0; /* Adjust padding as needed */
+				text-align: center;
+			}
+			.gallery {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+				grid-gap: 20px;
+			}
+			.image img {
+				width: 100%;
+				height: auto;
+			}
+			.image:hover img {
+        		transform: scale(1.1); /* Increase image scale on hover */
+		</style>	 
 
 	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
       <div class="container">
